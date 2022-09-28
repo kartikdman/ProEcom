@@ -7,7 +7,7 @@ function Navbar({ productCount }) {
   return (
 
 
-    <header className="bg-white shadow-lg h-24 hidden md:flex">
+    <header className="bg-white shadow-lg h-24  md:flex">
       <a href="/" className="border flex-shrink-0 flex items-center justify-center px-4 lg:px-6 xl:px-8">
         <img className="w-48 hover:border-indigo-600 border-2 rounded-md border-white" src="https://media.discordapp.net/attachments/999601406514298951/1020992707973361735/IMG_20220918_151014.jpg" alt="" />
       </a>

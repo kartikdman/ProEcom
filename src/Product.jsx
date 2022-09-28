@@ -11,7 +11,7 @@ function Product({ title, category, thumbnail, price, id, rating }) {
                 <div className="m-2" >
                     <div className="text-gray-500">{category}</div>
                     <h1 className="font-semibold">{title}</h1>
-                    <div>Ratings: {rating}</div>
+                    <div>Ratings: <span className="text-green-500">{rating}</span></div>
                     <div className="">${price}</div>
                 </div>
             

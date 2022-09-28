@@ -9,9 +9,9 @@ function Navbar({ productCount }) {
 
     <header className="bg-white shadow-lg h-24  md:flex">
       <a href="/" className="border flex-shrink-0 flex items-center justify-center px-4 lg:px-6 xl:px-8">
-        <img className="w-48 hover:border-indigo-600 border-2 rounded-md border-white" src="https://media.discordapp.net/attachments/999601406514298951/1020992707973361735/IMG_20220918_151014.jpg" alt="" />
+        <img className="w-48 hover:border-indigo-600 border-2 rounded-md border-white " src="https://media.discordapp.net/attachments/999601406514298951/1020992707973361735/IMG_20220918_151014.jpg" alt="" />
       </a>
-      <nav className="header-links contents font-semibold text-base lg:text-lg">
+      <nav className="header-links contents font-semibold text-base sm:text-sm lg:text-lg">
         <ul className="flex items-center ml-4 xl:ml-8 mr-auto">
           <li className="p-3 xl:p-6 active">
             <a href="">
@@ -51,6 +51,7 @@ function Navbar({ productCount }) {
       </div>
     </header>
 
+   
 
   );
 }

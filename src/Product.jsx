@@ -5,6 +5,7 @@ function Product({ title, category, thumbnail, price, id, rating }) {
 
     return (
         <div className="bg-white shadow shadow-black max-w-xs border border-black rounded-md m-2">
+            <Link to={"/Products/" + id}>
             <div className="w-full aspect-square">
                 <img className="object-cover w-full h-full" src={thumbnail} alt="" />
                 </div>
@@ -20,6 +21,8 @@ function Product({ title, category, thumbnail, price, id, rating }) {
             <div className="flex flex-col justify-center">
                 <Link className="font-semibold text-white bg-sky-900 rounded-md py-2 px-3 m-6 text-center" to={"/Products/" + id}>View More</Link>
             </div>
+            </Link>
+           
 
         </div>
     )

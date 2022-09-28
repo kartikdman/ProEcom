@@ -19,7 +19,9 @@ return(
           <h3 className="font-semibold text-center text-gray-600 text-xs uppercase w-1/5">Total</h3>
         </div>
        <CartProduct/>
-
+       <div className="w-full  flex my-3">
+      <button className="ml-auto rounded-lg bg-red-600 font-semibold hover:bg-indigo-600 py-4 text-sm text-white uppercase w-2/4">Update</button>
+      </div>
       </div>
      <TotalCart/>
      </div>

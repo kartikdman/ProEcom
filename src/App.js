@@ -10,6 +10,7 @@ import SigninPage from "./SigninPage";
 import Skills from "./Skills";
 import NotFound from "./NotFound";
 import Cart from "./Cart";
+import Forget from "./Forget";
 
 
 
@@ -49,6 +50,7 @@ function App() {
           <Route path="*" element={<NotFound />}></Route>
           <Route path="/Cart" element={<Cart />}></Route>
           <Route path="/Skills" element={<Skills />}></Route>
+          <Route path="/Forget" element={<Forget/>}></Route>
         </Routes>
       </div>
 

@@ -29,9 +29,9 @@ function Navbar({ productCount }) {
             </Link>
           </li>
           <li className="p-3 xl:p-6 ">
-            <a href="">
+            <Link to="/Contact">
               <span className=" hover:text-indigo-700">Contacts</span>
-            </a>
+            </Link>
           </li>
 
         </ul>
@@ -39,7 +39,7 @@ function Navbar({ productCount }) {
           <Link to="/cart">
             <div className="flex flex-col items-center">
               <GrCart className="text-5xl text-white hover:bg-indigo-500 rounded-md mt-5 mx-3 p-1 border border-black" />
-              <span className=" text-black font-extrabold">{productCount}</span>
+              <span className=" hover:text-indigo-700 bg-white text-black font-extrabold">{productCount}</span>
             </div>
 
           </Link>

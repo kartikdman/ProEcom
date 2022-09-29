@@ -11,6 +11,7 @@ import Skills from "./Skills";
 import NotFound from "./NotFound";
 import Cart from "./Cart";
 import Forget from "./Forget";
+import Contact from "./Contact";
 
 
 
@@ -51,6 +52,7 @@ function App() {
           <Route path="/Cart" element={<Cart />}></Route>
           <Route path="/Skills" element={<Skills />}></Route>
           <Route path="/Forget" element={<Forget/>}></Route>
+          <Route path="/Contact" element={<Contact/>}></Route>
         </Routes>
       </div>
 

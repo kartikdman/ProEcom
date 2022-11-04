@@ -36,7 +36,7 @@ function Navbar({ productCount }) {
 
         </ul>
         <div className="flex justify-items-center justify-center text-white">
-          <Link to="/cart">
+          <Link to="/cartPage">
             <div className="flex flex-col items-center">
               <GrCart className="text-5xl text-white hover:bg-indigo-500 rounded-md mt-5 mx-3 p-1 border border-black" />
               <span className=" hover:text-indigo-700 bg-white text-black font-extrabold">{productCount}</span>
